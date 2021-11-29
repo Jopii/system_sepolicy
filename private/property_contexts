@@ -723,7 +723,7 @@ ro.product.cpu.abilist64 u:object_r:build_prop:s0 exact string
 
 ro.product.system.brand        u:object_r:build_prop:s0 exact string
 ro.product.system.device       u:object_r:build_prop:s0 exact string
-ro.product.system.manufacturer u:object_r:build_prop:s0 exact string
+#ro.product.system.manufacturer u:object_r:build_prop:s0 exact string
 ro.product.system.model        u:object_r:build_prop:s0 exact string
 ro.product.system.name         u:object_r:build_prop:s0 exact string
 
@@ -761,7 +761,7 @@ ro.system_ext.build.version.sdk                 u:object_r:build_prop:s0 exact i
 # These ro.product.product.* and ro.product.build.* are set by /product/etc/build.prop
 ro.product.product.brand        u:object_r:build_prop:s0 exact string
 ro.product.product.device       u:object_r:build_prop:s0 exact string
-#ro.product.product.manufacturer u:object_r:build_prop:s0 exact string
+ro.product.product.manufacturer u:object_r:build_prop:s0 exact string
 ro.product.product.model        u:object_r:build_prop:s0 exact string
 ro.product.product.name         u:object_r:build_prop:s0 exact string
 
